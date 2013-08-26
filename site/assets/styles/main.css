@@ -11,6 +11,9 @@ body {
     margin: -20px;
     padding: 20px;
   }
+  .nav-logo {
+    display: none;
+  }
 }
 
 /* This is a hack for fixed nav covering headers */
