@@ -15,7 +15,7 @@ body {
 
 /* This is a hack for fixed nav covering headers */
 a[name] {
-  height: 40px;
+  height: 20px;
   display: block;
 }
 
