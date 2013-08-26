@@ -1,0 +1,117 @@
+body {
+  color: #666;
+  padding-top: 40px;
+}
+
+@media (max-width: 979px) {
+  body {
+    padding-top: 0;
+  }
+}
+
+/* This is a hack for fixed nav covering headers */
+a[name] {
+  height: 40px;
+  display: block;
+}
+
+@media (max-width: 979px) {
+  a[name] {
+    display: inline;
+  }
+}
+
+h1, h2, h3, h4 {
+	line-height: 1;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+h1, .brand {
+  font-family: 'tamarillo';
+  font-weight: 400;
+  font-style: normal;
+}
+
+h2, h3, h4 {
+  font-family: 'trajan-sans-pro';
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1 {
+	font-size: 7em;
+  color: #333;
+}
+
+h2 {
+  font-size: 2em;
+  color: #c90016;
+}
+
+h3 {
+  font-size: 1.5em;
+  color: #c90016;
+}
+
+h4 {
+  font-size: 1.2em;
+  color: #04569c;
+}
+
+h5 {
+  font-size: 1em;
+  font-weight: normal;
+  color: #000;
+}
+
+.nav-logo {
+  padding-top:5px;
+}
+
+.research {
+  margin-top: 10px;
+  font-size: 1em;
+}
+
+.portrait {
+  margin-top: 30px;
+}
+
+/* PAPERS */
+.paper {
+  margin-bottom: 10px;
+}
+.paper .acrobat {
+  height: 16px;
+  width: 16px;
+  display: block;
+  float: left;
+  margin-right: 10px;
+  margin-top: 3px;
+  background-image: url(../images/page_white_acrobat.png);
+  background-repeat: no-repeat;
+}
+.paper .description {
+  overflow: hidden;
+}
+
+#header {
+  text-align: center;
+}
+
+#footer {
+  text-align: center;
+  margin-bottom: 40px;
+}
+#footer .address {
+  margin-top: 20px;
+}
+#footer .address .name {
+  font-family: 'tamarillo';
+  font-weight: 400;
+  font-style: normal;
+  font-size: 3em;
+  margin-bottom: 20px;
+  color: #333;
+}
