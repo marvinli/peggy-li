@@ -22,7 +22,7 @@ a[name] {
 }
 
 h1, h2, h3, h4 {
-	line-height: 1;
+  line-height: 1;
   margin: 0;
   margin-bottom: 10px;
 }
@@ -40,7 +40,7 @@ h2, h3, h4 {
 }
 
 h1 {
-	font-size: 7em;
+  font-size: 7em;
   color: #333;
 }
 
